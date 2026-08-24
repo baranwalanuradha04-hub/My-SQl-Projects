@@ -55,4 +55,46 @@ A collection of SQL projects completed as part of my **Data Technician Bootcamp*
 These projects were built to strengthen core SQL skills relevant to a **Data Technician** role — from designing efficient relational databases to writing queries that extract clear, actionable insights from structured data.
 
 ---
-*Part of my ongoing journey transitioning into a career in data and technology.*
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Employee & Training Records Database (SQL)
+
+A relational database project built to track employees and the training courses they've completed. Created as part of my **Data Technician Bootcamp**.
+
+### 📖 Overview
+
+This project models a simple but realistic business scenario: a company needs to keep track of its employees and which training courses each of them has completed (e.g. for compliance or skills tracking purposes). It demonstrates core relational database design and SQL querying skills.
+
+## 🗂️ Database Schema
+
+Two related tables, linked by `EmployeeID`:
+
+**Employees**
+
+| Column        | Type          | Constraint   |
+|---------------|---------------|--------------|
+| EmployeeID    | VARCHAR(10)   | PRIMARY KEY  |
+| EmployeeName  | VARCHAR(100)  | NOT NULL     |
+| JobRole       | VARCHAR(100)  |              |
+
+**TrainingRecords**
+
+| Column            | Type          | Constraint                        |
+|-------------------|---------------|------------------------------------|
+| TrainingRecordID  | VARCHAR(10)   | PRIMARY KEY                        |
+| EmployeeID        | VARCHAR(10)   | NOT NULL, FOREIGN KEY → Employees  |
+| Course            | VARCHAR(100)  | NOT NULL                           |
+
+
+## 🧰 Skills Demonstrated
+- Designing normalised relational tables with **PRIMARY KEY** and **FOREIGN KEY** constraints
+- Enforcing data integrity with **NOT NULL**
+- Populating tables using **INSERT INTO ... VALUES**
+- Querying and filtering data with **SELECT** and **WHERE**
+- Using **subqueries** to pull related data from another table
+
+## 🎯 Purpose
+
+This project was built to strengthen my understanding of relational database design and SQL fundamentals as part of my transition into a career in data and technology.
+
+
