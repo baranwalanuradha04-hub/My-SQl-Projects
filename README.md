@@ -1,5 +1,7 @@
 # My-SQL-Projects
 This repository contains SQL projects showcasing my skills in writing queries, joins, aggregations, and data analysis. Created as part of my learning journey into data and technology.
+<br><br>
+## 📁 Project 1:
 ## Student Results Database Design
 
 This project illustrates a simple relational database schema for managing student results.  
@@ -17,7 +19,10 @@ It includes three tables — **Student**, **Class**, and **Results** — connect
 - Results(result_id, student_id, class_id, mark)
 
 ![Student Results Database Diagram](student_results_database.drawio.png)
-----------------------------------------------------------------------------------------------------------------------------
+<br><br>
+
+## 📁 Project 2:
+
 ## 🗄️ SQL Data Analysis Projects
 
 A collection of SQL projects completed as part of my **Data Technician Bootcamp**, showcasing database design and query-writing skills applied to retail and sales data scenarios.
@@ -56,7 +61,10 @@ These projects were built to strengthen core SQL skills relevant to a **Data Tec
 
 ---
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<br><br>
+
+
+## 📁 Project 3:
 ## Employee & Training Records Database (SQL)
 
 A relational database project built to track employees and the training courses they've completed. Created as part of my **Data Technician Bootcamp**.
@@ -97,4 +105,5 @@ Two related tables, linked by `EmployeeID`:
 
 This project was built to strengthen my understanding of relational database design and SQL fundamentals as part of my transition into a career in data and technology.
 
-
+<br><br>
+## 📁 Project 4:
